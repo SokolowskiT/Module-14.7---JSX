@@ -4,6 +4,9 @@ var Contacts = React.createClass({
 	},
 
 	render: function() {
+
+
+		
 		var contacts = this.props.items.map(function(contact) {
 			return React.createElement(Contact, {
 				item: contact,

@@ -24,7 +24,16 @@ var contactForm = {
 var App = React.createClass({
 	render: function() {
 		return (
-			React.createElement('div', {
+
+			<div className = {'app'}>
+				<ContactForm contact = {'contactForm'}></ContactForm>
+				<Contacts items = {'contacts'}></Contacts>
+			</div>
+			)
+		}
+	});
+
+			/*/*React.createElement('div', {
 					className: 'app'
 				},
 				React.createElement(ContactForm, {
@@ -36,4 +45,4 @@ var App = React.createClass({
 			)
 		);
 	}
-});
+});*/*/
