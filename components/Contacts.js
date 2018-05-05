@@ -9,10 +9,12 @@ var Contacts = React.createClass({
 				item: contact,
 				key: contact.id
 			});
-	
+		});
 
-		return (
-		<ul className={'contactsList'}>contacts</ul>
+		return ( <
+			ul className = {
+				'contactsList'
+			} > contacts < /ul>
 		);
 	}
 });
