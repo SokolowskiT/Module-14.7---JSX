@@ -6,11 +6,9 @@ var Contacts = React.createClass({
 	render: function() {
 		var contacts = this.props.items;
 
-
-		return (<ul className = {'contactsList'}> 
-		{contacts.map((contact) => <Contact key={contact.id} item={contact} />)}
-
-
+		return (
+			<ul className = {'contactsList'}> 
+				{contacts.map((contact) => <Contact key={contact.id} item={contact} />)}
 			</ul>
 		);
 	}
