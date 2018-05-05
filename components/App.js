@@ -32,17 +32,3 @@ var App = React.createClass({
 			)
 		}
 	});
-
-			/*/*React.createElement('div', {
-					className: 'app'
-				},
-				React.createElement(ContactForm, {
-					contact: contactForm
-				}),
-				React.createElement(Contacts, {
-					items: contacts
-				}, {})
-			)
-		);
-	}
-});*/*/
