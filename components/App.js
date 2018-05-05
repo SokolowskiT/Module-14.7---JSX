@@ -26,8 +26,8 @@ var App = React.createClass({
 		return (
 
 			<div className = {'app'}>
-				<ContactForm>this.props.contactForm</ContactForm>
-				<Contacts>this.props.contacts</Contacts>
+				<ContactForm>contactForm</ContactForm>
+				<Contacts>contacts</Contacts>
 			</div>
 			)
 		}
